@@ -1,0 +1,61 @@
+.services-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.service-card {
+  background-color: #ece6e6;
+  box-shadow: 3px 4px 5px rgb(200, 200, 200);
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1rem;
+  padding: 10px ;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.first{
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 3px 6px 8px rgb(150, 150, 150);
+}
+
+.first h1{
+  text-decoration: underline;
+}
+
+/* .why{
+  background-color: #fff;
+  box-shadow: 3px 6px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 2rem;
+  padding: 10px;
+  display: flex;
+}
+
+.why div{
+  width: 500px;
+  overflow: hidden;
+} */
+
+.service-card h2 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.service-card p {
+  font-size: 1.2rem;
+  margin: 1rem;
+  flex-grow: 1;
+}
+
+
